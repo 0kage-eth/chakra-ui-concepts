@@ -8,6 +8,7 @@ import { Header, HeaderProps } from "./components/Header"
 import { Box } from "@chakra-ui/react"
 import { Pricing } from "./components/Pricing"
 import { Features } from "./components/Feature"
+import { SampleForm } from "./components/FormExample"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       />
       <Pricing />
       <Features />
+      <SampleForm />
     </Box>
   )
 }
